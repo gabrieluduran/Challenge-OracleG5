@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="diseno.css">
+
+    </head>
+
+    <body>
+
+        <header class="Contenedor">
+            <h1 class="heading">Challenge Encriptador</h1>
+            <img src="encriptar.png" class="imagenEncriptar">
+        </header>
+
+        <main>
+
+            <section>
+                <textarea class="frase" cols="30" rows="10" placeholder="Ingrese el texto a encriptar o desencriptar"></textarea>
+                <div>
+                    <h6 class="aviso">¡Solo letras minisculas y sin acentos!</h6>
+                </div>
+
+                <div class="botones">
+                    <button class="botonEncriptar" onclick="botonEncriptar()">Encriptar</button>
+                    <button class="botonDesencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+                    <button class="botonCopiar" onclick="paste()">Copiar</button>
+                </div>
+
+            </section>
+           
+            <section>
+                <textarea class="frse2" cols="20" rows="10"></textarea>
+                <img src="/Encriptador de texto/desencriptar.jpg" class="imagenDesencriptar">
+                <div>
+                    <h7 class="message">Ningun mensaje fue leido</h7>
+                </div>
+            </section>
+            <section class="hidden">
+                <textarea class="frse3" cols="20" rows="10"></textarea>
+              
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>Elaborated by Gabriel Duran</p>
+        </footer>
+
+        <script src="/Encriptador de texto/main.js"></script>
+
+    </body>
+
+  
+
+</html>
